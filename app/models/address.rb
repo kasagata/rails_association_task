@@ -1,4 +1,4 @@
 class Address < ApplicationRecord
     has_many :orders
-    belongs_to :addressable, polymarphic: true
+    belongs_to :addressable, polymorphic: true
 end
