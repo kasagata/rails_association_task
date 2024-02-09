@@ -1,5 +1,5 @@
 class Address < ApplicationRecord
-    belongs_to :customers
-    belongs_to :shops
+    belongs_to :addressable
     has_many :orders
+    polymarphic: true
 end
